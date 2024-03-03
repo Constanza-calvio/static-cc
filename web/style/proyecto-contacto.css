@@ -988,8 +988,6 @@ display:none;
   height: 97%;
   top: 2vw;
 }
-
-  
   #tools:hover {
     transform: translateY(-7px);
   }
