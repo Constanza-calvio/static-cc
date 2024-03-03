@@ -83,7 +83,7 @@ h2 {
   align-items: center;
   padding: 2vw;
 }
-#content {
+.content {
   position: absolute;
   top: 2vw;
   bottom: 0;
@@ -95,7 +95,7 @@ h2 {
   opacity: 0;
   transition: 0.5s;
 }
-#content:hover {
+.content:hover {
   opacity: 90%;
   width: 25vw;
   height: 35vw;
@@ -484,7 +484,7 @@ a{
     align-items: center;
     padding: 2vw;
   }
-  #content {
+  .content {
     width: 100%;
     position: absolute;
     top: 2vw;
@@ -497,7 +497,7 @@ a{
     opacity: 0;
     transition: 0.5s;
   }
-  #content:hover {
+  .content:hover {
     opacity: 90%;
     width: calc(100% - 4vw);
     height: calc(100% - 4vw);
