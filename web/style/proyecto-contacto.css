@@ -969,10 +969,26 @@ display:none;
     transform: translateY(-1px);
   }
  /*--------------- CONTENIDO DE PROYECTOS --------------*/
+ #content {
+  width: 45vw;
+  height: 60vw;
+  position: absolute;
+  top: 4vw;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0d363f;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.5s;
+}
+#content:hover {
+  opacity: 90%;
+  height: 97%;
+  top: 2vw;
+}
 
-  #content:hover {
-    opacity: 90%;
-  }
   
   #tools:hover {
     transform: translateY(-7px);
